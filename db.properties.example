@@ -1,0 +1,4 @@
+# Copiez ce fichier en "db.properties" (non versionné) et renseignez vos valeurs
+db.url=jdbc:mysql://localhost:3306/ventesdb
+db.user=root
+db.password=VOTRE_MOT_DE_PASSE

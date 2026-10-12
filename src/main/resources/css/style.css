@@ -1,0 +1,98 @@
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: #f9f9f9;
+}
+
+.label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1px;
+    -fx-table-cell-border-color: #eeeeee;
+    -fx-padding: 5px;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+    -fx-font-size: 13px; /* Texte un peu plus petit */
+    -fx-font-weight: normal; /* Plus léger */
+}
+
+.table-cell {
+    -fx-padding: 6px 8px; /* Plus de respiration */
+    -fx-font-size: 13px;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #d0e6f6;
+}
+.bouton-ajouter {
+    -fx-background-color: #2196F3; /* Bleu */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.bouton-ajouter:hover {
+    -fx-background-color: #1976D2;
+}
+
+.bouton-vider {
+    -fx-background-color: #f44336; /* Rouge */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.bouton-vider:hover {
+    -fx-background-color: #d32f2f;
+}
+
+.hbox {
+    -fx-alignment: center;
+    -fx-padding: 10px;
+}
+
+
+
+
+
+.bouton-analyser {
+    -fx-background-color: #2196F3; /* Bleu */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px 16px;
+}
+
+.bouton-analyser:hover {
+    -fx-background-color: #1976D2;
+}
+
+
+
+
+
+.bouton-charger {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+}

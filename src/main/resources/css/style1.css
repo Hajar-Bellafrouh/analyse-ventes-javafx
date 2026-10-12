@@ -1,0 +1,96 @@
+/* === Style général de la scène (racine) === */
+.root {
+    -fx-background-color: #f9f9f9;          /* Fond gris très clair pour l'interface globale */
+    -fx-font-family: "Segoe UI", sans-serif; /* Police principale utilisée partout */
+    -fx-font-size: 13px;                    /* Taille de police par défaut */
+}
+
+/* === Labels standards === */
+.label {
+    -fx-text-fill: #333333; /* Couleur du texte en gris foncé (bonne lisibilité) */
+}
+
+/* === Titres centrés === */
+.titre-centre {
+    -fx-font-size: 26px;                   /* Taille de police plus grande pour les titres */
+    -fx-font-weight: bold;                /* Titre en gras */
+    -fx-font-family: "Segoe UI", "Arial", sans-serif; /* Font stack de secours */
+    -fx-text-fill: #2c3e50;               /* Couleur bleue/grise élégante */
+    -fx-padding: 20 0 10 0;               /* Marges hautes et basses */
+    -fx-alignment: center;                /* Alignement du conteneur */
+    -fx-text-alignment: center;           /* Alignement du texte */
+}
+
+/* === Style de base pour tous les boutons === */
+.button {
+    -fx-text-fill: white;                 /* Couleur du texte en blanc */
+    -fx-font-weight: bold;                /* Texte en gras */
+    -fx-background-radius: 8;             /* Coins arrondis */
+    -fx-padding: 10 16;                   /* Espacement intérieur vertical/horizontal */
+    -fx-cursor: hand;                     /* Curseur en forme de main au survol */
+}
+
+/* Effets de survol pour tous les boutons */
+.button:hover {
+    -fx-opacity: 0.85;                    /* Légère transparence au survol */
+}
+
+/* Effets quand le bouton est pressé (cliqué) */
+.button:pressed {
+    -fx-opacity: 0.75;                    /* Plus de transparence au clic */
+}
+
+/* === Boutons de chargement ou d'action principale === */
+.bouton-rech {
+   -fx-background-color: #CACED2;
+}
+.button.btn-csv {
+    -fx-background-color: #3498DB;        /* Bleu foncé (CSV) */
+}
+
+.button.btn-bd {
+    -fx-background-color: #2980B9;        /* Vert (chargement BD) */
+}
+
+.button.btn-save {
+    -fx-background-color: #8E44AD;        /* Orange (enregistrement) */
+}
+
+/* === Boutons secondaires ou contextuels === */
+.button.bouton-ajouter {
+    -fx-background-color: #2ecc71;        /* Vert clair (ajouter) */
+}
+
+.button.bouton-vider {
+    -fx-background-color: #e74c3c;        /* Rouge vif (vider champs/données) */
+}
+
+.button.bouton-analyser {
+    -fx-background-color: #F1C40F;        /* Violet (lancer une analyse) */
+}
+
+/* === TableView : tableau de données === */
+.table-view {
+    -fx-border-color: #dddddd;            /* Bordure grise claire */
+    -fx-border-width: 1;                  /* Épaisseur de la bordure */
+    -fx-background-color: #ffffff;        /* Fond blanc */
+}
+
+/* En-tête de colonnes du tableau */
+.table-view .column-header-background {
+    -fx-background-color: #ecf0f1;        /* Gris très clair pour distinguer l’en-tête */
+}
+
+/* Ligne survolée dans le tableau */
+.table-view .table-row-cell:hover {
+    -fx-background-color: #f0f8ff;        /* Bleu très clair au survol */
+}
+
+/* === Champs de texte === */
+.text-field {
+    -fx-background-color: #ffffff;        /* Fond blanc classique */
+    -fx-border-color: #cccccc;            /* Bordure gris moyen */
+    -fx-border-radius: 4;                 /* Coins légèrement arrondis */
+    -fx-background-radius: 4;             /* Arrondi aussi pour le fond */
+    -fx-padding: 6;                       /* Espacement interne */
+}

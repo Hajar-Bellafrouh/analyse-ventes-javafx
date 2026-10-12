@@ -1,0 +1,94 @@
+/* Style général de l'application */
+.root {
+    -fx-font-family: "Segoe UI", sans-serif; /* Police de caractère principale */
+    -fx-font-size: 14px;                     /* Taille de police par défaut */
+    -fx-background-color: #f9fafa;           /* Couleur de fond générale */
+}
+
+/* === Menu de gauche === */
+/* Ancien style commenté – utilisé si tu appliques la classe "menu-gauche" à la VBox du menu */
+/*
+.menu-gauche {
+    -fx-background-color: #eaeff3;           // Fond gris clair du menu
+    -fx-padding: 20;                          // Espacement intérieur
+    -fx-spacing: 10;                          // Espacement entre les éléments enfants
+}
+
+.menu-gauche .button {
+    -fx-background-color: white;             // Fond blanc pour les boutons
+    -fx-text-fill: #333;                      // Texte gris foncé
+    -fx-font-weight: bold;                    // Texte en gras
+    -fx-border-color: #c0c0c0;                // Bordure grise
+    -fx-border-radius: 5;                     // Coins arrondis
+    -fx-background-radius: 5;                 // Arrondi du fond
+    -fx-cursor: hand;                         // Curseur main au survol
+}
+
+.menu-gauche .button:hover {
+    -fx-background-color: #d0e1f9;            // Changement de couleur au survol
+}
+*/
+
+/* Nouveau style des boutons du menu, plus moderne et plus doux */
+.menu-button {
+    -fx-background-color: #D7BDE2; /* Couleur de fond bleu très clair */
+    -fx-text-fill: #2c3e50;        /* Couleur du texte bleu foncé/gris */
+    -fx-font-weight: bold;         /* Texte en gras */
+    -fx-border-color: #cfd9df;     /* Bordure discrète bleu-gris */
+    -fx-border-radius: 6;          /* Coins arrondis */
+    -fx-background-radius: 6;      /* Arrondi du fond */
+    -fx-padding: 10 20;            /* Padding interne vertical/horizontal */
+    -fx-cursor: hand;              /* Curseur main au survol */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 3, 0, 0, 1); /* Légère ombre portée */
+}
+
+/* Changement de couleur des boutons du menu au survol */
+.menu-button:hover {
+    -fx-background-color: #AF7AC5; /* Bleu clair au survol */
+    -fx-text-fill: #000000;        /* Texte noir au survol */
+}
+
+/* === Zone centrale du contenu (graphiques, résultats, etc.) === */
+.contenu {
+    -fx-padding: 20; /* Espacement intérieur */
+}
+
+/* === Pied de page (avec les boutons "Retourner" et "Exporter") === */
+.footer {
+    -fx-padding: 10;               /* Espacement intérieur */
+    -fx-alignment: center-right;   /* Alignement à droite */
+    -fx-background-color: #f1f1f1; /* Couleur de fond grise claire */
+}
+
+/* Style des boutons d'action (ex. : Exporter en PDF, Retour) */
+.button-action {
+    -fx-background-color: #FFF0F5; /* Fond bleu clair */
+    -fx-border-radius: 5;          /* Coins arrondis */
+    -fx-background-radius: 5;      /* Arrondi du fond */
+    -fx-text-fill: #1a1a1a;        /* Texte gris foncé */
+    -fx-font-weight: bold;         /* Texte en gras */
+}
+
+/* Style des boutons d'action au survol */
+.button-action:hover {
+    -fx-background-color: #FFC0CB; /* Bleu plus vif au survol */
+}
+
+
+.button-violet {
+    -fx-background-color: linear-gradient(to right, #8e44ad, #9b59b6);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 18;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 4, 0.2, 0, 2);
+    -fx-border-width: 0;
+    -fx-transition: all 0.3s ease;
+}
+
+.button-violet:hover {
+    -fx-background-color: linear-gradient(to right, #732d91, #8e44ad);
+    -fx-opacity: 0.95;
+}

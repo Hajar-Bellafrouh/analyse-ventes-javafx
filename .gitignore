@@ -1,0 +1,20 @@
+# Maven
+target/
+
+# Configuration locale (mot de passe MySQL)
+db.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+.vscode/
+nbproject/
+
+# OS
+.DS_Store
+Thumbs.db
